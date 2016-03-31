@@ -32,9 +32,9 @@
         self.redView.layer.transform = CATransform3DMakeScale(0.5, 0.5, 1);
         
         // 使用KVO快速操作
-//        [self.redView.layer setValue:@0.5 forKey:@"transform.scale"];
-        
-//        [self.imageView.layer setValue:@(M_PI) forKey:@"transform.totation"];
+//        [self.redView.layer setValue:@0.5 forKeyPath:@"transform.scale"];
+//        
+//        [self.imageView.layer setValue:@(M_PI) forKeyPath:@"transform.totation"];
     }];
 }
 
